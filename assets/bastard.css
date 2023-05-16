@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Times New Bastard";
+    src: url("font/TimesNewBastard-RegularWeb.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "Times New Bastard";
+    src: url("font/TimesNewBastard-BoldWeb.woff2") format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Times New Bastard";
+    src: url("fonts/TimesNewBastard-BoldItalicWeb.woff2") format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Times New Bastard";
+    src: url("fonts/TimesNewBastard-ItalicWeb.woff2") format('woff');
+    font-style: italic;
+}
+
+* {
+    font-family: "Times New Bastard" !important;
+    font-feature-settings: "kern" on, "liga" on !important;
+    text-rendering: optimizeLegibility !important;
+}
